@@ -8,7 +8,7 @@ export default function Book(props){
             <div id="book--info">
                 <p>{props.title}</p>
                 <p>{props.description}</p>
-                <p>From {props.price}</p>
+                <p>From ${props.price}</p>
                 <div id="popularity-container">
                     <img src={star_logo} id="star--class"/>
                     <p>{props.stats.ratings}</p>
