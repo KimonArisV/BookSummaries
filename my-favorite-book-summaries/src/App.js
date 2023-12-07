@@ -1,15 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import NavBar from "./components/NavBar";
-import Books from "./components/Books";
+import Book from "./components/Books";
 import data from "./assets/data";
 
 function App() {
-  const books = Books.map(data=>{})
+  const books = data.map(item=>{
+    return(
+      <Book 
+        key={item.id}
+        {...item} />
+    )
+  })
   return (
    <div className='main--container'>
     <NavBar />
-    <div>
+    <div className='the-book-container'>
       {books}
     </div>
    </div>
