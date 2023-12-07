@@ -5,17 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: antiquewhite;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* makign custom font for the nav bar */
 @font-face {
   font-family: 'Great Vibes Regular';
   src: local('Great Vibes Regular'), url('./assets/fonts/Great Vibes Regular.ttf') format('truetype');
 }
-
 nav{
   color:blue;
   font-size: 4rem;
@@ -26,12 +28,43 @@ nav{
   margin-bottom: 20px;
 
 }
+
+/* put some margin to all the books */
+#the-book-container{
+  margin:15px;
+}
+
+/* putting the stats and star in the same row */
 #popularity-container{
   display: flex;
   align-items: center;
 }
 
+/* making the star the right size */
 #star--class{
   width:25px;
   height: auto;
+}
+
+/* make the #individual-book-container flex container 
+to make the img flex item so we can center it. */
+#individual-book-container {
+  display:flex;
+  flex-direction: column;
+}
+#individual-book-container > img{
+  width: 80%;
+  height: auto;
+  align-self: center;
+}
+
+
+
+
+
+@media (min-width:716px){
+#individual-book-container{
+  display: flex;
+  flex-direction: row;
+}
 }
