@@ -58,6 +58,14 @@ to make the img flex item so we can center it. */
   align-self: center;
 }
 
+/* making the stats go next to the title */
+#title-and-stats{
+  display: flex; 
+  justify-content: space-around;
+}
+/* #title-and-stats > h3 #popularity-container{
+
+} */
 
 
 

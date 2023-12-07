@@ -16,7 +16,7 @@ export default function Book(props){
                 </div>
                 <p>Summary:</p>
                 <p>{props.description}</p>
-                <p>From ${props.price}</p>
+                <p id="book-price">From ${props.price}</p>
             </div>
         </div>
     )
