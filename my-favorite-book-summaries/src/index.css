@@ -67,6 +67,10 @@ to make the img flex item so we can center it. */
 
 } */
 
+/* make the price bold! we could also use a span to only make the price */
+#book-price{
+  font-weight: bold;
+}
 
 
 
