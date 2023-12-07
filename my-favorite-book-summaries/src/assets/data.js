@@ -1,8 +1,8 @@
-import book1 from "./images/book1.jpg";
-import book2 from "./images/book2.jpg";
-import book3 from "./images/book3.jpg";
-import book4 from "./images/book4.jpg";
-import book5 from "./images/book5.jpg";
+import book1 from "../assets/images/book1.jpg";
+import book2 from "../assets/images/book2.jpg";
+import book3 from "../assets/images/book3.jpg";
+import book4 from "../assets/images/book4.jpg";
+import book5 from "../assets/images/book5.jpg";
 
 export default [
     {

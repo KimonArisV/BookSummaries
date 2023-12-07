@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+//import ReactDOM from 'react-dom';
 import NavBar from "./components/NavBar";
 import Book from "./components/Books";
 import data from "./assets/data";
@@ -12,6 +12,7 @@ function App() {
         {...item} />
     )
   })
+  console.log(books)
   return (
    <div className='main--container'>
     <NavBar />
