@@ -14,9 +14,9 @@ function App() {
   })
   console.log(books)
   return (
-   <div className='main--container'>
+   <div id='main--container'>
     <NavBar />
-    <div className='the-book-container'>
+    <div id='the-book-container'>
       {books}
     </div>
    </div>
