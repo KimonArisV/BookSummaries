@@ -56,7 +56,7 @@ export default [
     {
         id:5,
         title:"Deep Learning A Practitioner's Approach",
-        description:"Although interest in machine learning has reached a high point, lofty expectations often scuttle projects before they get very far. How can machine learningâ??especially deep neural networksâ??make a real difference in your organization? This hands-on guide not only provides the most practical information available on the subject, but also helps you get started building efficient deep learning networks.",
+        description:"Although interest in machine learning has reached a high point, lofty expectations often scuttle projects before they get very far. How can machine learning, especially deep neural networks, make a real difference in your organization? This hands-on guide not only provides the most practical information available on the subject, but also helps you get started building efficient deep learning networks.",
         price:29,
         coverImg:{book5},
         stats:{
