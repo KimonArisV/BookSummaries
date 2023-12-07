@@ -6,14 +6,17 @@ export default function Book(props){
         <div id="individual-book-container">
             <img src={Object.values(props.coverImg)[0]} />
             <div id="book--info">
-                <p>{props.title}</p>
+                <div id="title-and-stats">
+                    <h3>{props.title}</h3>
+                    <div id="popularity-container">
+                        <img src={star_logo} id="star--class"/>
+                        <p>{props.stats.ratings}</p>
+                        <p> ({props.stats.reviewCount})</p>
+                    </div>
+                </div>
+                <p>Summary:</p>
                 <p>{props.description}</p>
                 <p>From ${props.price}</p>
-                <div id="popularity-container">
-                    <img src={star_logo} id="star--class"/>
-                    <p>{props.stats.ratings}</p>
-                    <p> ({props.stats.reviewCount})</p>
-                </div>
             </div>
         </div>
     )
