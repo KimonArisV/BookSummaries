@@ -66,20 +66,19 @@ to make the img flex item so we can center it. */
   display: flex; 
   justify-content: space-around;
 }
-/* #title-and-stats > h3 #popularity-container{
-
-} */
 
 /* make the price bold! we could also use a span to only make the price */
 #book-price{
   font-weight: bold;
 }
 
-
-
 @media (min-width:716px){
-#individual-book-container{
-  display: flex;
-  flex-direction: row;
-}
+  #individual-book-container{
+    display: flex;
+    flex-direction: row;
+  }
+  /* provide more borger to the text */
+  #book--info{
+    margin: 30px;
+  }
 }
