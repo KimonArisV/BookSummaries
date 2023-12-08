@@ -2,8 +2,14 @@ import React from "react";
 import star_logo from "../assets/images/star.jpg";
 
 export default function Book(props){
+    let badgeText
+    if (props.soldOut===true){
+        badgeText="SOLD OUT"
+    }else{
+    }
     return(
         <div id="individual-book-container">
+            {badgeText && <div id="badge-id">{badgeText}</div>}
             <img src={Object.values(props.coverImg)[0]} />
             <div id="book--info">
                 <div id="title-and-stats">

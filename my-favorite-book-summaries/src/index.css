@@ -54,6 +54,7 @@ to make the img flex item so we can center it. */
   padding:10px;
   margin-bottom: 50px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
 }
 #individual-book-container > img{
   width: 80%;
@@ -69,6 +70,16 @@ to make the img flex item so we can center it. */
 
 /* make the price bold! we could also use a span to only make the price */
 #book-price{
+  font-weight: bold;
+}
+
+#badge-id{
+  position:absolute;
+  top:15px;
+  left:15px;
+  background-color:antiquewhite;
+  padding: 10px;
+  border-radius: 5px;
   font-weight: bold;
 }
 
